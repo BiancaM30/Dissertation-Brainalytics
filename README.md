@@ -7,11 +7,11 @@
 </p>
 <p align="center">
   <img src="Images/manual4.png" width="30%">
-  <img src="Images/manual5.png" width="30%">
   <img src="Images/manual6.png" width="30%">
+  <img src="Images/manual7.png" width="30%">
 </p>
 <p align="center">
-  <img src="Images/manual7.png" width="30%">
+  <img src="Images/Pipeline.png" width="100%">
 </p>
 
 ## Overview
