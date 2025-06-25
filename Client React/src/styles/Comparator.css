@@ -1,0 +1,32 @@
+.comparison-container {
+    padding: 2rem;
+    background: url('../images/Background.png') no-repeat center center fixed;
+    color: white;
+    min-height: 100vh;
+}
+
+.selectors {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+}
+
+.selectors div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #3e5b5b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}

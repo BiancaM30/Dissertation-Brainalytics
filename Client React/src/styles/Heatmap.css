@@ -1,0 +1,54 @@
+.heatmap-wrapper {
+    min-height: 100vh;
+    padding: 2rem;
+    background: url('../images/Background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+.heatmap-container {
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+}
+
+.heatmap-title {
+    margin-bottom: 1rem;
+}
+
+.heatmap-scroll {
+    max-width: 90vw;
+    max-height: 70vh;
+    overflow: auto;
+    margin: 0 auto;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background-color: #111;
+}
+
+.heatmap-table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.heatmap-table th,
+.heatmap-table td {
+    padding: 4px;
+    text-align: center;
+    font-size: 0.7rem;
+    border: 1px solid #333;
+    min-width: 30px;
+}
+
+.heatmap-label {
+    font-weight: bold;
+    background-color: #222;
+    color: white;
+    position: sticky;
+    left: 0;
+    z-index: 1;
+}
+
+.heatmap-cell {
+    cursor: pointer;
+    transition: background 0.3s ease;
+}

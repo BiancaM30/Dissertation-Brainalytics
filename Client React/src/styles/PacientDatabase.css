@@ -1,0 +1,110 @@
+.database-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+    background: url('../images/Background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+.label-selector {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.label-selector label {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.label-selector select {
+    padding: 0.5rem;
+    background: #1e1e1e;
+    color: white;
+    border: 1px solid #3e5b5b;
+    border-radius: 5px;
+}
+
+.patient-card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.patient-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.patient-card:hover {
+    transform: translateY(-5px);
+}
+
+.patient-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0.5rem;
+}
+
+.card-actions {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card-actions button {
+    padding: 0.5rem;
+    background: #3e5b5b;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.card-actions button:hover {
+    background: #2a4444;
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(14, 14, 14, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.spinner {
+    border: 6px solid rgba(255, 255, 255, 0.2);
+    border-top: 6px solid #97b5b5;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 1rem;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
